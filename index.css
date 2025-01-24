@@ -1,12 +1,10 @@
-.try {
-    position: absolute;
-    top: 0;
-  }
-  
-  .try1 {
-    left: 0;
-  }
-  
-  .try2 {
-    left: 150px;
-  }
+
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Raleway";
+}
