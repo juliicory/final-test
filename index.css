@@ -1,5 +1,4 @@
 
-
 .poppins-regular {
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -8,8 +7,12 @@
 body {
   background-color: rgb(172, 223, 248);
   font-family: "Poppins";
+  color: rgb(255, 255, 255);
 }
-p.descr {
+p {
+  font-family: "Poppins";
   font-size: 12pt;
   font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: justify;
 }

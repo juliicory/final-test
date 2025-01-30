@@ -1,0 +1,52 @@
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  body {
+    background-color: rgb(172, 223, 248);
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+  }
+
+  h2 {
+    position: relative;
+    top: 60px;
+    font-family: "Poppins";
+    font-size: 35pt;
+    font-weight: 400;
+  }
+
+  p.description {
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 12pt;
+    font-weight: 300;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    width: 40%;
+    top: 180px;
+    box-sizing: border-box;
+  }
