@@ -9,8 +9,10 @@
     float: left;
     width: 50%;
   }
-.column.fish {
-    width: 70%;
+.fish {
+    position: relative;
+    width: 50%;
+    top: 200px;
   }
   
   /* Clear floats after the columns */
