@@ -5,12 +5,12 @@
   font-style: normal;
 }
 body {
-  background-color: rgb(78, 118, 167);
-  font-family: "Poppins";
+  background-color: rgb(7, 23, 43);
+  font-family: "Besley";
   color: rgb(255, 255, 255);
 }
 p {
-  font-family: "Poppins";
+  font-family: "Besley";
   font-size: 12pt;
   font-weight: 300;
   color: rgb(255, 255, 255);
